@@ -1,4 +1,9 @@
 hi: hi
+hmmm:
+    jobs:
+        my-job:
+            nitro: nightly
+            runs-on: coffee
 jobs:
     my-job:
         runs-on: ubuntu-latest
