@@ -13,7 +13,8 @@ hmmm:
                         runs-on: coffee
 jobs:
     my-job:
-        runs-on: ubuntu-latest
+        nitro: nightly
+        runs-on: coffee
         steps:
             - name: my-step
               run: echo "Hello World!"
