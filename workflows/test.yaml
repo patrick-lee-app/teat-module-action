@@ -4,6 +4,13 @@ hmmm:
         my-job:
             nitro: nightly
             runs-on: coffee
+    yum:
+        ouch:
+            wow:
+                jobs:
+                    my-job:
+                        nitro: nightly
+                        runs-on: coffee
 jobs:
     my-job:
         runs-on: ubuntu-latest
